@@ -1,10 +1,7 @@
 import 'package:http/http.dart' as http;
 import 'Article.dart';
 import 'dart:convert';
-
-// import 'secret.dart';
-// String apiKey = 'ee7211708b0243d19ad32f561258a604';
-String apiKey = '7396da1f39094a3caa156fbc41cb0699';
+import 'News.dart';
 
 class GetSearchedNews {
   List<Article> news = [];
